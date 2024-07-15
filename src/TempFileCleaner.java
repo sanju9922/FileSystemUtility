@@ -4,6 +4,7 @@ import java.io.IOException;
 public class TempFileCleaner {
     
     public static void main(String[] args) {
+        System.out.println("Hello");
         String tempDir = System.getProperty("java.io.tmpdir");
         System.out.println("Temporary Directory: " + tempDir);
 
